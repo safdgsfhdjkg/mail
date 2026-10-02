@@ -1,0 +1,1 @@
+CREATE INDEX `mailbox_catch_all_idx` ON `mailbox` (`expires_at`) WHERE "mailbox"."catch_all" = 1;

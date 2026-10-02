@@ -1,0 +1,1 @@
+ALTER TABLE `mailbox` ADD `share_expires_at` integer;

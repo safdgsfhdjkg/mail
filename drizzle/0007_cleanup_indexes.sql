@@ -1,0 +1,2 @@
+CREATE INDEX `mailbox_share_expires_idx` ON `mailbox` (`share_expires_at`) WHERE "mailbox"."share_expires_at" is not null;--> statement-breakpoint
+CREATE INDEX `member_expires_idx` ON `mailbox_member` (`expires_at`) WHERE "mailbox_member"."expires_at" is not null;

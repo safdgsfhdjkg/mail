@@ -1,0 +1,1 @@
+CREATE INDEX `message_unread_idx` ON `message` (`mailbox_id`) WHERE "message"."deleted_at" is null and "message"."seen" = 0;
